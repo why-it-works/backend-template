@@ -1,0 +1,18 @@
+# Ignore everything by default
+**
+
+# Allow only specific file types
+!**/*.js
+!**/*.ts
+!**/*.jsx
+!**/*.tsx
+!**/*.json
+!**/*.css
+!**/*.scss
+!**/*.md
+!**/*.html
+!**/*.yml
+!**/*.yaml
+
+# Ensure directories are not ignored, so allowed file types are processed
+!*/
