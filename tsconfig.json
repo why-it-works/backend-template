@@ -1,19 +1,25 @@
 {
-  "compilerOptions": {
-    "target": "ES2020",                          // Modern JavaScript support
-    "module": "commonjs",                        // Required for Node.js
-    "lib": ["ES2020"],                           // Enable modern features
-    "outDir": "./dist",                          // Output directory
-    "rootDir": "./src",                          // Source code directory
-    "strict": true,                              // Enable all strict type-checking options
-    "esModuleInterop": true,                     // Allow default imports from CommonJS modules
-    "forceConsistentCasingInFileNames": true,    // Ensure consistent file naming
-    "skipLibCheck": true,                        // Speed up build by skipping type checks on node_modules
-    "resolveJsonModule": true,                   // Allow importing JSON
-    "moduleResolution": "node",                  // Resolve modules like Node.js
-    "noImplicitAny": false,                      // Allow `any` type explicitly
-    "types": ["node", "express"]                 // Auto-import types
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist"]
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"target": "ES2021",
+		"module": "commonjs",
+		"lib": ["ES2021"],
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"strict": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"noImplicitAny": false,
+		"types": ["node", "express"],
+		"useDefineForClassFields": false
+	},
+	"tsDecorators": {
+		"legacy": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "dist"]
 }
