@@ -44,7 +44,7 @@ src/
 
     ```bash
     git clone https://github.com/why-it-works/backend-template
-    cd nodejs-microservices-template
+    cd backend-template
     ```
 
 2. Install dependencies
@@ -197,7 +197,7 @@ The API is documented using Swagger/OpenAPI. You can access the documentation at
 
 ## Database
 
-This template uses SQLite by default for simplicity, but you can easily swap it with any database supported by Knex.js.
+This template uses SQLite by default for simplicity, but you can easily swap it with any database supported by [Knex.js](https://knexjs.org/).
 
 ### Database Configuration
 
